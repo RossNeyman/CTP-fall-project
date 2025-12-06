@@ -6,6 +6,13 @@ description of what project is about
 
 ## Team Members
 
+Mari Kathleen Abdon
+Yousuf Ahmed
+Sairun Alam
+Victoria Dynak
+Ross Neyman 
+Shithila Urshi
+
 ## Technologies/Tools
 
 ## Features
