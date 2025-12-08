@@ -1,5 +1,9 @@
 # [Heartbeat](https://heartbeats-jtlr.onrender.com) 
 
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhrOXFrdmk4MGNuNWFuOW1xcG14YnBycGQ5YmF4ZzF3dnI5NHVoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nPoediqrIWtgTMmyQF/giphy.gif" />
+</p>
+
 ![heart](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmhrOXFrdmk4MGNuNWFuOW1xcG14YnBycGQ5YmF4ZzF3dnI5NHVoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nPoediqrIWtgTMmyQF/giphy.gif)
 
 Ever listen to a song and thought, "Wow, I need more songs that sound *exactly* like this!" That is *exactly* what Heartbeat does. Upload a file of a song you have been listening on repeat, and let us handle the tedious work of finding tracks that give of similar vibes in just seconds. 
