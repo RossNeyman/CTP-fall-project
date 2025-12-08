@@ -1,10 +1,18 @@
-# Heartbeat 
+# [Heartbeat](https://heartbeats-jtlr.onrender.com) 
 
-![hippo](https://www.pixilart.com/art/minecraft-hearts-61d2ee80cdb2252)
+![heart](https://www.pixilart.com/art/minecraft-hearts-61d2ee80cdb2252](https://art.pixilart.com/eec386b780a30b0.gif)
 
 Ever listen to a song and thought, "Wow, I need more songs that sound *exactly* like this!" That is *exactly* what Heartbeat does. Upload a file of a song you have been listening on repeat, and let us handle the tedious work of finding tracks that give of similar vibes in just seconds. 
+
+# Table of Contents 
+
+* Features
+* Team Members
+* Technologies/Tools
+* Run Locally Intructions
  
 ## Features 
+
 
 ## Team Members
 
@@ -21,4 +29,4 @@ Shithila Urshi
 
 ## Run Locally Intructions 
 
-![hippo](https://www.pixilart.com/art/minecraft-hearts-61d2ee80cdb2252)
+![heart](https://www.pixilart.com/art/minecraft-hearts-61d2ee80cdb2252](https://art.pixilart.com/eec386b780a30b0.gif)
