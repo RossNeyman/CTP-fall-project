@@ -13,6 +13,7 @@ ID_COL = "track_id"
 TITLE_COL = "track_title"
 ARTIST_COL = "artist_name"
 ALBUM_COL = "album_title"
+URL_COL = "track_url"
 
 FEATURE_PREFIXES = [
     "mfcc_",
@@ -47,7 +48,7 @@ X_scaled = scaler.fit_transform(X)
 joblib.dump(scaler, MODEL_DIR + "scaler.pkl")
 np.save(MODEL_DIR + "features.npy", X_scaled)
 
-df[[ID_COL, TITLE_COL, ARTIST_COL, ALBUM_COL]].to_csv(MODEL_DIR + "metadata.csv", index=False)
+df[[ID_COL, TITLE_COL, ARTIST_COL, ALBUM_COL, URL_COL]].to_csv(MODEL_DIR + "metadata.csv", index=False)
 
 # ------------------------------
 # BUILD ANNOY INDEX

@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template, redirect, url_for
 import sys
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+executor = ThreadPoolExecutor(max_workers=4)
 
 # --- Project Path Fix ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -92,10 +94,15 @@ def results_page():
             f.write(cached_file_bytes)
 
         # Process file normally
-        annoy_features = extract_features_annoy(upload_path)
-        GTZAN_features = extract_features_GTZAN(upload_path)
+        future_annoy = executor.submit(extract_features_annoy, upload_path)
+        future_gtzan = executor.submit(extract_features_GTZAN, upload_path)
+
+        annoy_features = future_annoy.result()
+        GTZAN_features = future_gtzan.result()
+
 
         result_df = recommender.recommend_from_features(annoy_features, k=10)
+        
         results = result_df.to_dict(orient="records")
 
         # Hearts
@@ -133,14 +140,18 @@ def results_page():
 
         if downloaded_path is None:
             return render_template("index.html", error="Could not download audio.")
+    upload_path = downloaded_path  
 
     try:
-        annoy_features = extract_features_annoy(downloaded_path)
-        GTZAN_features = extract_features_GTZAN(downloaded_path)
+        
+        future_annoy = executor.submit(extract_features_annoy, upload_path)
+        future_gtzan = executor.submit(extract_features_GTZAN, upload_path)
+
+        annoy_features = future_annoy.result()
+        GTZAN_features = future_gtzan.result()
 
         result_df = recommender.recommend_from_features(annoy_features, k=10)
         results = result_df.to_dict(orient="records")
-
         # Hearts
         for r in results:
             accuracy = r["distance"] * 100
@@ -167,4 +178,4 @@ def results_page():
 
 # Run App
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=6967)
