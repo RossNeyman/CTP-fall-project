@@ -7,9 +7,9 @@
 Find Your Next On-Repeat Song Here
 
 Ever listen to a song and thought, "Wow, I need more songs that sound *exactly* like this!" 
-That is where what **Heartbeat** comes in.
+That is where **Heartbeat** comes in.
 
-Upload an audio file or a YouTube/SoundCloud/Spotify link of a song you have been listening on repeat, and Heartbeat analyzes the audio to uncover songs that give off **similar vibes**, **energy**, and **mood**. No more scrolling endlessing through playlists hoping for a match.  
+Upload an audio file or a YouTube/SoundCloud/Spotify link of a song you have been listening on repeat, and Heartbeat analyzes the audio to uncover songs that give off **similar vibes**, **energy**, and **mood**. No more scrolling endlessly through playlists hoping for a match.  
 
 ## Table of Contents 
 
@@ -35,8 +35,8 @@ We all have that *one* song that we can't stop listening to no matter how many t
 
 * 🎵**Upload or Link a Song:** Accepts both direct uploads or URL-based tracks
 * 🔍**Genre Identification:** Automatically detects the genre and sonic
-* 📊**Similarity Scale:** Displays how close reccomended tracks match your upload 
-* ⚡**Fast Audio Analysis:** Uses backend audio-processing to deliever rescults in seconds
+* 📊**Similarity Scale:** Displays how close recommended tracks match your upload 
+* ⚡**Fast Audio Analysis:** Uses backend audio-processing to deliver results in seconds
 * 📱**Clean & Responsive UI:** Smooth, modern feel across devices 
 
 ## Team Members
@@ -57,8 +57,8 @@ We all have that *one* song that we can't stop listening to no matter how many t
 
 #### Frontend:
 * HTML5
-* TailWind CSS
-* FLask UI
+* Tailwind CSS
+* Flask UI
 
 #### Deployment:
 * Render
