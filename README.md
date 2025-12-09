@@ -26,6 +26,9 @@ Try it Out: https://heartbeats-jtlr.onrender.com
 
 ## Preview
 
+(link might break when merged)
+![preview1](https://github.com/RossNeyman/CTP-fall-project/blob/ushithila-patch-2/Preview/preview1.png)
+![preview2](https://github.com/RossNeyman/CTP-fall-project/blob/ushithila-patch-2/Preview/preview2.png)
 
 ## Inspiration 
 
